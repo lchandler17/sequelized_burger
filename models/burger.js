@@ -9,10 +9,6 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultStatus: false
-    // },
-    // date: {
-    //   type: DataTypes.NOW,
-    //   allowNull: false
     }
   });
   

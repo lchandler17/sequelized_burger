@@ -1,9 +1,10 @@
 var path = require("path");
+var db = require("../models");
 
 module.exports = function(app) {
-
 	app.get("/", function(req, res) {
-    	res.render("index", {})
-    	// res.sendFile(path.join(__dirname + "/../public/view.html"))
-  		});
+	    	db.Burger.findAll({}).then(function(dbBurger) {
+	      		res.render("index", {burgers: dbBurger})
+	    	});
+  	});
 };
