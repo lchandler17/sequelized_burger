@@ -1,0 +1,56 @@
+body {
+	background-color: #ffffe2;
+	font-family: courier;
+}
+
+h1 {
+	text-align: center;
+	font-size: 42px;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 26px;
+	margin: 10px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#burgers {
+	display: block;
+	clear: all;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#col1 {
+	color: black;
+	padding: 30px;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 1.5;
+}
+
+#col2 {
+	color: grey;
+	padding: 30px;
+	display: inline-block;
+	line-height: 1.5;
+}
+
+#entry {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+	clear: all;
+}
+
+#entry button {
+	display: block;
+	margin: 0 auto;
+}
